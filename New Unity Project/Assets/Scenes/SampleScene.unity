@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 233747546}
   - component: {fileID: 233747549}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Coin1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -262,7 +262,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 233747545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.69, y: 1.1, z: 1.1760386}
+  m_LocalPosition: {x: -5.61, y: 1.1, z: 1.1760386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -767,7 +767,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1139698051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.97, y: 3.71, z: 0}
+  m_LocalPosition: {x: -10.07, y: 4.61, z: 0}
   m_LocalScale: {x: 2.5075467, y: 2.5075467, z: 2.5075467}
   m_Children: []
   m_Father: {fileID: 0}
@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 1207012944}
   - component: {fileID: 1207012943}
   m_Layer: 0
-  m_Name: New Sprite (2)
+  m_Name: Coin3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -871,7 +871,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1207012942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.73, y: 1.1, z: 1.1760386}
+  m_LocalPosition: {x: -3.63, y: 1.1, z: 1.1760386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 1251858595}
   - component: {fileID: 1251858594}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: Tiger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -962,7 +962,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1251858593}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.170719, y: -2.84, z: 1.0871737}
+  m_LocalPosition: {x: -6.12, y: 4.51, z: 1.0871737}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -980,7 +980,7 @@ GameObject:
   - component: {fileID: 1332758791}
   - component: {fileID: 1332758790}
   m_Layer: 0
-  m_Name: New Sprite (1)
+  m_Name: Coin2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1066,7 +1066,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1332758789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.602, y: 1.1, z: 1.1760386}
+  m_LocalPosition: {x: -4.7, y: 1.1, z: 1.1760386}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5796,8 +5796,9 @@ GameObject:
   - component: {fileID: 1488046165}
   - component: {fileID: 1488046164}
   - component: {fileID: 1488046163}
+  - component: {fileID: 1488046166}
   m_Layer: 0
-  m_Name: New Sprite (3)
+  m_Name: If Statement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5869,12 +5870,26 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1488046162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.1, y: 1.99, z: 0.9244}
+  m_LocalPosition: {x: -9.1, y: 4.61, z: 0.9244}
   m_LocalScale: {x: 2.0198, y: 2.0198, z: 2.0198}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1488046166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1488046162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ed41b179299d64b9f33b9b70385e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  suspect: Sandwich
+  weapon: 
+  room: 
 --- !u!1 &1899998967
 GameObject:
   m_ObjectHideFlags: 0
@@ -6036,7 +6051,7 @@ GameObject:
   - component: {fileID: 2005651472}
   - component: {fileID: 2005651474}
   m_Layer: 0
-  m_Name: GameObject (2)
+  m_Name: Variable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6063,7 +6078,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2005651471}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.08, y: 0, z: 0}
+  m_LocalPosition: {x: -8.13, y: 4.52, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6096,7 +6111,7 @@ GameObject:
   - component: {fileID: 2060257842}
   - component: {fileID: 2060257846}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Functions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
