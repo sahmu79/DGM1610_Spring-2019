@@ -11,6 +11,8 @@ public class CoinPickup : MonoBehaviour {
 
 			print("You've collected the coin!");
 
+			ScoreManager.AddPoints(coinValue);
+
 			Destroy(gameObject);
 		}
 

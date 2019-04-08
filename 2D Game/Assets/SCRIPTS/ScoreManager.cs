@@ -9,24 +9,29 @@ public class ScoreManager : MonoBehaviour {
 	private Text scoreText;
 
 	// Use this for initialization
-	void Start (){
+	void Start () {
 		// Gets UI text component
-		scoreText = GetComponent<Text>();
+		scoreText = GetComponent<Text>("Score:000");
 
 		score = 0;
+		
 	}
-
+	
 	// Update is called once per frame
-	void Update (){
+	void Update () {
 		if (score < 0)
-			score =0;
+			score = 0;
 
-			scoreText.text = " " = score;
+		scoreText.text = " " + score;
 	}
 
-	public static void AddPoints (int pointsToAdd){
+	public static void AddPoints (int pointsToAdd) {
 
 		score += pointsToAdd;
 	}
-}
+
+	// public static void Reset () {
+	// 	Score=0;
+	// }
 	
+}
