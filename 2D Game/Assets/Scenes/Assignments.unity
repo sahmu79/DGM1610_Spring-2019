@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 45672149}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -255,7 +255,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.759965
+  orthographic size: 15.402445
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -574,7 +574,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
@@ -756,7 +756,7 @@ GameObject:
   m_Layer: 0
   m_Name: EdgeCheck
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
@@ -1205,6 +1205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1263063415}
   - component: {fileID: 1263063414}
+  - component: {fileID: 1263063413}
   m_Layer: 0
   m_Name: DeathBox
   m_TagString: Untagged
@@ -1212,6 +1213,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1263063413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1263063412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1430378d95f299546a1cf9759e7b5a1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!61 &1263063414
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1245,7 +1258,7 @@ Transform:
   m_GameObject: {fileID: 1263063412}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.01, y: -3.13, z: 21.899359}
-  m_LocalScale: {x: 20.763, y: 1.7875, z: 1}
+  m_LocalScale: {x: 73.968185, y: 1.7875, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -1779,11 +1792,10 @@ GameObject:
   - component: {fileID: 2080907395}
   - component: {fileID: 2080907394}
   - component: {fileID: 2080907393}
-  - component: {fileID: 2080907392}
   - component: {fileID: 2080907391}
   m_Layer: 0
   m_Name: BadBoi
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1807,18 +1819,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   edgeCheck: {fileID: 952170648}
---- !u!114 &2080907392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2080907390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1430378d95f299546a1cf9759e7b5a1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelManager: {fileID: 0}
 --- !u!50 &2080907393
 Rigidbody2D:
   serializedVersion: 4
@@ -1900,7 +1900,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.122634605, g: 0.8207547, b: 0.07355818, a: 1}
+  m_Color: {r: 0.81960785, g: 0.074509785, b: 0.08138394, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1918,7 +1918,7 @@ Transform:
   m_GameObject: {fileID: 2080907390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -17.11, y: -0.78, z: 1.0390625}
-  m_LocalScale: {x: 2.6005762, y: 2.6005762, z: 2.6005762}
+  m_LocalScale: {x: 4.925751, y: 4.925751, z: 4.925751}
   m_Children:
   - {fileID: 529601790}
   - {fileID: 952170648}
@@ -1965,7 +1965,7 @@ GameObject:
   m_Layer: 0
   m_Name: Shooter
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
