@@ -185,8 +185,8 @@ TextureImporter:
       name: Idle 2
       rect:
         serializedVersion: 2
-        x: 281
-        y: 1121
+        x: 283
+        y: 1109
         width: 265
         height: 329
       alignment: 9
