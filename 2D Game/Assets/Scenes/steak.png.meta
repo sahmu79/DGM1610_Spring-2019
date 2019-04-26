@@ -1,12 +1,11 @@
 fileFormatVersion: 2
-guid: b7bec0841774f3c4097535e0dba3c054
+guid: 5f7d66b8a0613434ab1bf4ed45c3f543
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BadBoi_0
-    21300002: BadBoi_1
-    21300004: BadBoi_2
-    21300006: BadBoi_3
-    21300008: BadBoi_4
+    21300000: steak_0
+    21300002: steak_1
+    21300004: steak_2
+    21300006: steak_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -89,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BadBoi_0
+      name: steak_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 821
-        width: 189
-        height: 235
+        x: 121
+        y: 1014
+        width: 30
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -103,19 +102,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f448906ef6b61f43989bc8cca5341c1
+      spriteID: 23b853cbe9f6b4d478df5fe4d53ff21f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BadBoi_1
+      name: steak_1
       rect:
         serializedVersion: 2
-        x: 388
-        y: 821
-        width: 190
-        height: 211
+        x: 206
+        y: 1008
+        width: 30
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,19 +122,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a04b48c8f2da4aa4997092699312a5eb
+      spriteID: 8c22fc41244cbcd4cbba6b8a4520bfd9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BadBoi_2
+      name: steak_2
       rect:
         serializedVersion: 2
-        x: 708
-        y: 821
-        width: 215
-        height: 182
+        x: 286
+        y: 1001
+        width: 30
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,19 +142,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db597470e69ae2044b2659d325a79c58
+      spriteID: fad543b7c61289040b971cae1cca9639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BadBoi_3
+      name: steak_3
       rect:
         serializedVersion: 2
-        x: 1015
-        y: 821
-        width: 257
-        height: 160
+        x: 40
+        y: 1000
+        width: 30
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,27 +162,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f55278a4253d09f4297684327286d51a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BadBoi_4
-      rect:
-        serializedVersion: 2
-        x: 902
-        y: 797
-        width: 107
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2917874651f70942baa91482ff89323
+      spriteID: d4296568e2e84cf44a5da2b034d1efe3
       vertices: []
       indices: 
       edges: []
@@ -191,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 63d7d7e4a5c7990439270b6799fb7398
+    spriteID: 55e6e3b807d3f224792bc163217f1efa
     vertices: []
     indices: 
     edges: []

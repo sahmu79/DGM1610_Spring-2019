@@ -9,7 +9,7 @@ public class CoinPickup : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D other){
 		if(other.name == "Player"){
 
-			print("You've collected the coin!");
+			print("MEAT ACQUIRED");
 
 			ScoreManager.AddPoints(coinValue);
 

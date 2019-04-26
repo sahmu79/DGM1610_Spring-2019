@@ -72,7 +72,7 @@ public class CharacterMove : MonoBehaviour {
 			animator.SetBool("isWalking",true);
 		}
 
-		else if(Input.GetKeyUp (KeyCode.D)){
+		else if(Input.GetKeyUp (KeyCode.A)){
 			animator.SetBool("isWalking",false);
 		}
 
