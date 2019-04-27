@@ -16,6 +16,8 @@ public float speed;
 
 	public int pointsForKill;
 
+
+
 	// Use this for initialization
 	void Start () {
 		 player = GameObject.Find("Player"); 

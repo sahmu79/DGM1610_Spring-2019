@@ -3341,7 +3341,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2145520447}
-  projectile: {fileID: 0}
+  projectile: {fileID: 1944056469774412, guid: 83b8bd12f509ff9488e298aa3f4d4257, type: 2}
+  animator: {fileID: 2064000403}
 --- !u!95 &2064000403
 Animator:
   serializedVersion: 3
@@ -3632,3 +3633,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2145520447}
   projectile: {fileID: 0}
+  animator: {fileID: 2064000403}
