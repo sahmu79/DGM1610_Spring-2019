@@ -19,7 +19,7 @@ public class PlayerShoot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.RightControl))
+		if(Input.GetKeyDown(KeyCode.Space))
 			Instantiate(projectile,firePoint.position, firePoint.rotation);
 			
 		if(Input.GetKey (KeyCode.Space)){
@@ -27,7 +27,7 @@ public class PlayerShoot : MonoBehaviour {
 		}
 
 		else if(Input.GetKeyUp (KeyCode.Space)){
-			animator.SetBool("isWalking",false);
+			animator.SetBool("isShooting",false);
 		}
 
 	}
